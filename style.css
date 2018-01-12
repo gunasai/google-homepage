@@ -133,12 +133,12 @@ input.g-search:hover, input.lucky:hover {
 /* FOOTER */
 div.footer {
   border-top: 1px solid #e4e4e4;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-right: 20px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #f2f2f2;
   position: relative;
-  height: 9px;
+  height: 32px;
   margin-top: -60px;
   clear: both;
   color: #666666;
