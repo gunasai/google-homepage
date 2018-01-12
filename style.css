@@ -1,0 +1,126 @@
+/* HEADER */
+div.header {
+  padding: 17px;
+
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+
+}
+
+li {
+  display: inline;
+
+}
+
+ul li a {
+  font-family: Arial;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  opacity: 0.87;
+  font-size: 13px;
+  padding-left: 25px;
+}
+
+li.left {
+  line-height: 24px;
+  padding-left: 1px !important;
+}
+
+li.right {
+  float: right;
+  line-height: 24px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.logo img {
+  width: 21px;
+  padding-top: 2px;
+  opacity: 0.77;
+}
+
+.logo img:hover {
+  opacity: 1;
+}
+
+/* MAIN */
+
+div.title {
+  text-align: center;
+}
+
+div.title img {
+  width: 272px;
+  height: 92px;
+  padding-top: 128px;
+}
+
+div.form {
+  text-align: center;
+  padding-top: 25px;
+}
+
+div.form input {
+  height: 44px;
+  width: 570px;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  border: none;
+  box-shadow: 0 1px 5px #a9b1ac;
+}
+
+div.form input:hover {
+  box-shadow: 0 2px 9px #a9b1ac;
+}
+
+div.form span img {
+  width: 25px;
+  position: relative;
+  right: 41px;
+  top: 6px;
+}
+
+div.form input:focus {
+  outline: 0;
+}
+
+/* BUTTONS */
+
+div.search {
+  margin-top: 30px;
+  text-align: center;
+}
+
+div.search input {
+  box-sizing: border-box;
+  margin-right: 5px;
+  background-color: #F2F2F2;
+}
+
+input.g-search, input.lucky {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #757575;
+  font-weight: bold;
+  font-size: 13px;
+  border: 1px solid #f2f2f2;
+  border-radius: 2px;
+
+}
+
+input.g-search:hover, input.lucky:hover {
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
